@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+$btnColor:#4292dc;
+
+h2 {
+    font: {
+        size  : 1.8rem;
+        weight: 700;
+    }
+}
+
+.form-control {
+    &:focus {
+        outline     : 0;
+        box-shadow  : none;
+        border-color: #000 !important;
+    }
+
+}
+
+.btn-info {
+    background-color: $btnColor;
+    border-color    : $btnColor;
+    color           : #fff;
+    padding         : 15px 30px;
+
+    &:hover,
+    &:focus {
+        background-color: #358bdb;
+        border-color    : #358bdb;
+        color           : #fff;
+        box-shadow      : none;
+
+    }
+}
+
+p {
+    color: rgba(0, 0, 0, 0.7);
+
+    a {
+        text-decoration: none;
+        transition     : color 0.5s ease-in-out;
+
+        &:hover {
+            color: #000;
+        }
+    }
+
+}

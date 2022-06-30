@@ -1,0 +1,12 @@
+#password{
+    &:focus+.alert-info{
+        display: block;
+    }
+}
+.alert-info{
+    display: none;
+}
+
+
+
+

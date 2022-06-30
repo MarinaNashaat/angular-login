@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.form-control:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #000 !important;
+}
+
+.btn-info {
+  background-color: #4292dc;
+  border-color: #4292dc;
+  color: #fff;
+  padding: 15px 30px;
+}
+
+.btn-info:hover, .btn-info:focus {
+  background-color: #358bdb;
+  border-color: #358bdb;
+  color: #fff;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+p a {
+  text-decoration: none;
+  -webkit-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+}
+
+p a:hover {
+  color: #000;
+}
+/*# sourceMappingURL=styles.css.map */

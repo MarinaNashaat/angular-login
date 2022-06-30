@@ -1,0 +1,8 @@
+#password:focus + .alert-info {
+  display: block;
+}
+
+.alert-info {
+  display: none;
+}
+/*# sourceMappingURL=signup.component.css.map */
